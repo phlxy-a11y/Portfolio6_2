@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolios - โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>แฟ้มสะสมผลงาน (PORTFOLIO)</h1>
+        <p>โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</p>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <div class="tab-nav">
+        <button class="tab-btn active" onclick="openTab(event, 'kweisara')">กวีสรา วิไล (พลอย)</button>
+        <button class="tab-btn" onclick="openTab(event, 'nantita')">นันธิตา หิรัญรัตน์ (ดรีม)</button>
+    </div>
+
+    <div class="container">
+
+        <!-- PORTFOLIO 1: กวีสรา วิไล -->
+        <section id="kweisara" class="portfolio-section active">
+            
+            <div class="profile-card">
+                <img src="image_3ea37b.jpg" alt="ปก กวีสรา วิไล" class="profile-img-cover">[span_0](start_span)[span_0](end_span)
+                <div class="profile-details">
+                    <h2>นางสาว กวีสรา วิไล (พลอย)</h2>
+                    <h3>สาขาวิชาคณิตศาสตร์ | คณะครุศาสตร์ มหาวิทยาลัยราชภัฏนครศรีธรรมราช</h3>
+                    
+                    <div class="info-grid">
+                        <div class="info-item"><strong>วันเกิด:</strong> 13 พฤษภาคม 2552 (อายุ 17 ปี)</div>
+                        <div class="info-item"><strong>แผนการเรียน:</strong> ศิลป์-คำนวณ</div>
+                        <div class="info-item"><strong>เชื้อชาติ/สัญชาติ/ศาสนา:</strong> ไทย / ไทย / พุทธ</div>
+                        <div class="info-item"><strong>วิชาที่ชอบ:</strong> วิชาคณิตศาสตร์</div>
+                        <div class="info-item"><strong>โทรศัพท์:</strong> 098-083-5707</div>
+                        <div class="info-item"><strong>อีเมล:</strong> kwisra.phlxy2552@gmail.com</div>
+                    </div>
+
+                    <div class="quote-box">
+                        "วิชาชีพครูไม่ใช่เพียงผู้ถ่ายทอดความรู้ แต่ยังเป็นผู้ปลูกฝังคุณธรรม ทักษะชีวิต และเป็นกำลังสำคัญในการพัฒนาเยาวชน"
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h3>ตำแหน่งและประสบการณ์ทำงาน / ความสามารถพิเศษ</h3>
+                <p><strong>ตำแหน่งและประสบการณ์:</strong></p>
+                <ul>
+                    <li>ผู้ช่วยเลขานุการของสภานนักเรียน ประจำปีการศึกษา 2568</li>
+                    <li>คณะกรรมการฝ่ายจัดหาทุนในชมรม TO BE NUMBER ONE ประจำปีการศึกษา 2568</li>
+                    <li>ฝึกประสบการณ์วิชาชีพครูที่โรงเรียนวัดควนกอ พ.ศ. 2568</li>
+                </ul>
+                <br>
+                <p><strong>ความสามารถพิเศษ:</strong></p>
+                <ul>
+                    <li>ถ่ายทอดความรู้และอธิบายเนื้อหาให้ผู้อื่นเข้าใจได้ง่าย</li>
+                    <li>ทักษะการสื่อสารและการนำเสนอหน้าชั้นเรียน</li>
+                    <li>ทักษะการจดบันทึกและสรุปประเด็นสำคัญ</li>
+                    <li>ทำงานร่วมกับผู้อื่นและประสานงานได้ดี</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>เหตุผลที่อยากเข้าศึกษาต่อ</h3>
+                <p>
+                    ดิฉันมีความใฝ่ฝันที่จะประกอบวิชาชีพครู โดยเฉพาะครูสาขาวิชาคณิตศาสตร์ เนื่องจากมีความชื่นชอบในการอธิบาย การถ่ายทอดความรู้ และการได้ช่วยให้ผู้อื่นเกิดความเข้าใจในบทเรียน นอกจากนี้ยังสนใจในวิชาคณิตศาสตร์เป็นพิเศษ เพราะช่วยฝึกการคิดอย่างมีเหตุผล การวิเคราะห์ และการแก้ปัญหาอย่างเป็นระบบ
+                </p>
+            </div>
+
+            <div class="content-block">
+                <h3>อัลบั้มรูปภาพผลงานและเอกสาร (Portfolio Pages)</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="image_3ea37b.jpg" alt="หน้าปก">[span_1](start_span)[span_1](end_span)
+                        <p>หน้าปก Portfolio</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image_a44820.jpg" alt="เหตุผลที่อยากเข้าศึกษาต่อ">[span_2](start_span)[span_2](end_span)
+                        <p>เหตุผลที่อยากเข้าศึกษาต่อ</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image_6cea34.jpg" alt="ประวัติส่วนตัว">[span_3](start_span)[span_3](end_span)
+                        <p>ประวัติส่วนตัว & ประสบการณ์</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image_f95e20.jpg" alt="กิจกรรมด้านจิตอาสา">[span_4](start_span)[span_4](end_span)
+                        <p>กิจกรรมด้านจิตอาสา คุณธรรม จริยธรรม</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- PORTFOLIO 2: นันธิตา หิรัญรัตน์ -->
+        <section id="nantita" class="portfolio-section">
+            
+            <div class="profile-card">
+                <img src="image_1cf0dd.jpg" alt="ปก นันธิตา หิรัญรัตน์" class="profile-img-cover">[span_5](start_span)[span_5](end_span)
+                <div class="profile-details">
+                    <h2>นางสาว นันธิตา หิรัญรัตน์ (ดรีม)</h2>
+                    <h3>สาขาวิชาภาษาไทย | คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยราชภัฏนครศรีธรรมราช</h3>
+                    
+                    <div class="info-grid">
+                        <div class="info-item"><strong>วันเกิด:</strong> 17 พฤษภาคม 2551</div>
+                        <div class="info-item"><strong>เชื้อชาติ/ศาสนา:</strong> ไทย / พุทธ</div>
+                        <div class="info-item"><strong>ความใฝ่ฝัน:</strong> คุณครูประถมศึกษา</div>
+                        <div class="info-item"><strong>ความสามารถพิเศษ:</strong> ร้องเพลง, เต้น, ประดิษฐ์งาน, เล่นกีฬา</div>
+                        <div class="info-item"><strong>โทรศัพท์:</strong> 0656182510</div>
+                        <div class="info-item"><strong>อีเมล:</strong> Nantidanun10@gmail.com</div>
+                    </div>
+
+                    <div class="quote-box">
+                        "ไม่มีความพยายามไหนไร้ความหมายถ้าเราไม่หยุดเดิน"
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h3>เหตุผลที่อยากเข้าศึกษาต่อ</h3>
+                <p>
+                    ดิฉันมีความสนใจในภาษาไทย และมองว่าภาษาไทยเป็นสิ่งสำคัญในการสื่อสารและการใช้ชีวิต ดิฉันอยากเรียนรู้เกี่ยวกับภาษาไทยให้มากขึ้น ทั้งด้านการอ่าน การเขียน หลักภาษา วรรณคดีไทย และการใช้ภาษาไทยให้ถูกต้องเหมาะสม
+                </p>
+                <br>
+                <p>
+                    การเลือกเรียนคณะมนุษยศาสตร์และสังคมศาสตร์ ช่วยให้เราเข้าใจภาษา ผู้คน และสังคมรอบตัวมากยิ่งขึ้น สามารถนำความรู้ไปใช้ประโยชน์ได้หลากหลายด้าน ทั้งการสื่อสาร การถ่ายทอดความรู้ และการทำงานในอนาคต
+                </p>
+            </div>
+
+            <div class="content-block">
+                <h3>ประวัติการศึกษา (Education)</h3>
+                <ul>
+                    <li><strong>ระดับประถมศึกษา:</strong> โรงเรียนคลองหมื่นเพชรอุสรณ์ ค่ายวชิราลงกรณ์อุปถัมภ์ (บ้านกับควาย)</li>
+                    <li><strong>ระดับมัธยมศึกษาตอนต้น:</strong> โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</li>
+                    <li><strong>ระดับมัธยมศึกษาตอนปลาย:</strong> โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>อัลบั้มรูปภาพผลงานและเอกสาร (Portfolio Pages)</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="image_1cf0dd.jpg" alt="หน้าปก">[span_6](start_span)[span_6](end_span)
+                        <p>หน้าปก Portfolio</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image_b06e4c.jpg" alt="เหตุผลที่อยากเข้าศึกษาต่อ">[span_7](start_span)[span_7](end_span)
+                        <p>เหตุผลที่อยากเข้าศึกษาต่อ</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image_104b16.jpg" alt="ประวัติส่วนตัว">[span_8](start_span)[span_8](end_span)
+                        <p>ประวัติส่วนตัว & การศึกษา</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image_a0ed5a.jpg" alt="กิจกรรมที่ภาคภูมิใจ">[span_9](start_span)[span_9](end_span)
+                        <p>กิจกรรมที่ภาคภูมิใจ</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; Portfolio Website | โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
